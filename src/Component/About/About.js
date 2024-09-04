@@ -1,9 +1,9 @@
 import React from 'react'
 import "./About.css"
-import Aboutimg from "../../Assets/About/about.jpg"
+import Aboutimg from "../../Assets/About/about.png"
 import { Link } from 'react-router-dom'
 
-const About = () => {
+const AboutUs = () => {
 
     const toTop = () => {
         window.scrollTo({
@@ -18,13 +18,14 @@ const About = () => {
                 <div className="about-title">
                     {/* <h1>About</h1> */}
                     <h4>Our aim is to provide best in quality CLEANING MACHINES.</h4>
-                    <span>Our vision aspire us to provide an intelligent system that chooses the best source of environmental mechanize and manual cleaning equipment which provide resolution for abundant, efficient, and eco-friendly cleaning to help from tiny sensors to homes and businesses. We are a team of professionals attempts to keep the quality and merit intact with happy customers.</span>
+                    <span></span>
                 </div>
                 <div className="about-items">
                     <div className="about-left">
                         <div className="about-detail">
                             <h3>PROVIDING CLEANING SOLUTIONS</h3>
                             <p>Kruger Vac is one of the leading suppliers of commercial and industrial vacuum cleaners and other cleaning equipment. Kruger Vac is established with and idea to provide most advanced and latest technological products and concepts in commercial and industrial cleaning. Kruger Vac strives to become most preferred company with customised and user-friendly solutions in the market. </p>
+                            <p>Our vision aspire us to provide an intelligent system that chooses the best source of environmental mechanize and manual cleaning equipment which provide resolution for abundant, efficient, and eco-friendly cleaning to help from tiny sensors to homes and businesses. We are a team of professionals attempts to keep the quality and merit intact with happy customers.</p>
                         </div>
                         <div className="about-experience">
                             <div className="about-degit">
@@ -50,4 +51,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutUs

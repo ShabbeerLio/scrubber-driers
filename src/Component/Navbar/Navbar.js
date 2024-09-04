@@ -120,9 +120,8 @@ const Navbar = (props) => {
                                                 Products
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link className={`dropdown-item ${activeLink === '/vacuum-cleaners' ? 'active' : ''}`} to="/vacuum-cleaners" onClick={() => closeMenu('/vacuum-cleaners')}> <RiArrowDropDownLine />Vacuum Cleaners</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/floor-cleaning-machines' ? 'active' : ''}`} to="/floor-cleaning-machines" onClick={() => closeMenu('/floor-cleaning-machines')}> <RiArrowDropDownLine />Floor Cleaning Machines</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/scrubber-dryer-machines' ? 'active' : ''}`} to="/scrubber-dryer-machines" onClick={() => closeMenu('/scrubber-dryer-machines')}> <RiArrowDropDownLine />Scrubber Dryer Machines</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/walk-behind-automatic-scrubber-driers' ? 'active' : ''}`} to="/walk-behind-automatic-scrubber-driers" onClick={() => closeMenu('/walk-behind-automatic-scrubber-driers')}> <RiArrowDropDownLine />Walk Behind Automatic Scrubber Driers</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/ride-on-automatic-scrubber-driers' ? 'active' : ''}`} to="/ride-on-automatic-scrubber-driers" onClick={() => closeMenu('/ride-on-automatic-scrubber-driers')}> <RiArrowDropDownLine />Ride On Automatic Scrubber Driers</Link></li>
                                             </ul>
                                         </li>
                                         <li className="nav-item">

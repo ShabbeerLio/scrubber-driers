@@ -1,0 +1,22 @@
+.About {
+  padding: 5rem 0rem 0 0;
+  width: 100%;
+}
+
+.About-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .About-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+ 
+}

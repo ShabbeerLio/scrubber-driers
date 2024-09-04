@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import About from '../../Component/About/About'
+import AboutUs from '../../Component/About/About'
 import Walkthrough from '../../Component/Walkthrough/Walkthrough'
 import { useLocation } from 'react-router-dom'
 import Banner from "../../Component/Banner/Banner"
@@ -62,7 +62,7 @@ const Home = (props) => {
         <div className='home'>
 
             <Banner />
-            <About />
+            <AboutUs />
             <PresClients />
             <Highlights/>
             <Walkthrough />

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Highlights.css"
-import high from "../../Assets/Highlights/highlights.jpg"
+import high from "../../Assets/Highlights/highlights.png"
 import HighlightsData from './HighlightsData';
 import { IoCheckmarkCircle } from "react-icons/io5";
 

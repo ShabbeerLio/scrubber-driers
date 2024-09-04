@@ -1,7 +1,7 @@
 .aboutUs {
-  padding: 3rem 0rem;
+  padding: 5rem 0rem;
   width: 100%;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
 }
 
 .about-main {
@@ -15,7 +15,7 @@
 .about-items {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
   margin-top: 2rem;
 }
 
@@ -37,7 +37,7 @@
 
 .about-title h4 {
   color: #008e98;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
   padding-bottom: 20px;
@@ -71,85 +71,10 @@
 .about-right img {
   object-fit: cover;
   border-radius: 10px;
-  width: 100%;
+  width: 85%;
   /* rotate: 90deg; */
 }
 
-.about-button {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 20px;
-}
-
-/* .about-button a p {
-  margin: 0;
-  font-size: 20px;
-  padding: 15px 25px;
-  border-radius: 8px;
-  background-color: #283664;
-  transition: .3s ease-in-out;
-} */
-/* .about-button a p:hover {
-  background-color: #ffb000;
-  color: black;
-} */
-
-.about-button a {
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-}
-
-.about-button a {
-  padding: 10px;
-  background: #008e98;
-  position: relative;
-  display: flex;
-  place-content: center;
-  place-items: center;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.about-button a p {
-  z-index: 1;
-  color: white;
-  margin: 0;
-  font-size: 20px;
-}
-
-.about-button a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  /* background-image: linear-gradient(180deg, #ffb000, #ffb000); */
-  height: 50%;
-  /* animation: rotBGimg 3s linear infinite; */
-  transition: all 0.2s linear;
-}
-
-@keyframes rotBGimg {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.about-button a::after {
-  content: "";
-  position: absolute;
-  background: #008e98;
-  inset: 5px;
-  border-radius: 8px;
-}
-.about-button a:hover:before {
-  background-image: linear-gradient(180deg, gold, gold);
-  animation: rotBGimg 3.5s linear infinite;
-}
 
 .about-experience {
   display: flex;

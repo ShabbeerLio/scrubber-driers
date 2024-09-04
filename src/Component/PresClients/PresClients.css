@@ -12,14 +12,21 @@
     margin-left: auto;
   }
 
+  .hService-heading{
+    text-align: center;
+  }
+
   .presClients-card{
     margin: 1rem;
   }
 
   .presClients-image img{
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
+    aspect-ratio: 5/3;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
   }
 
   @media (min-width: 1200px) {

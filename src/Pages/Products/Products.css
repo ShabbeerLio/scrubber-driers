@@ -1,0 +1,40 @@
+.Products {
+  padding: 5rem 0rem;
+  width: 100%;
+}
+
+.Products-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Products-box {
+  margin-top: 5rem;
+}
+
+.Products-card {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
+.Products-card img {
+  width: 80%;
+  object-fit: cover;
+}
+.Products-card h3 {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .Products-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+}
