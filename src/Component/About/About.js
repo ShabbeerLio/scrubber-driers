@@ -17,7 +17,7 @@ const AboutUs = () => {
             <div className="about-main">
                 <div className="about-title">
                     {/* <h1>About</h1> */}
-                    <h4>Our aim is to provide best in quality CLEANING MACHINES.</h4>
+                    <h4>Our Aim Is To Provide Best In Quality <span>CLEANING MACHINES</span></h4>
                     <span></span>
                 </div>
                 <div className="about-items">
@@ -33,7 +33,7 @@ const AboutUs = () => {
                             </div>
                             <div className="about-degit-title">
                                 <p>Combined </p>
-                                <p>Experience </p>
+                                <p>Experiences </p>
                             </div>
                         </div>
                         {/* <div className="about-button">

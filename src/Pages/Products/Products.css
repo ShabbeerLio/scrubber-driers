@@ -13,6 +13,14 @@
 
 .Products-box {
   margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Products-box p{
+  text-align: center;
+  width: 70%;
 }
 
 .Products-card {
@@ -30,6 +38,16 @@
   margin-top: 1rem;
 }
 
+.product-detail{
+  margin: 2rem 0 4rem 0;
+}
+
+.product-faq{
+  width: 50%;
+  border-radius: 8px;
+ border: 1px solid #e0e0e0;
+ padding: 2rem;
+}
 @media (min-width: 1200px) {
   .Products-main {
     max-width: 1140px;

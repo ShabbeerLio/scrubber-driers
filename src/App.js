@@ -23,7 +23,7 @@ function App() {
           <Route path="/" exact element={<Home title={title} descriptions={descriptions} />} />
           <Route path="/about" exact element={<About title={title} descriptions={descriptions} />} />
           {ProductsData.map((item) => (
-            <Route path={item.tag} exact element={<Products title={title} descriptions={descriptions} item={item}/>} />
+            <Route key={item.id} path={item.tag} exact element={<Products title={title} descriptions={descriptions} item={item} key={item.id}/>} />
           ))}
           <Route path="/contact-us" exact element={<Contact title={title} descriptions={descriptions} />} />
           <Route path="/disclaimer" exact element={<Disclaimer title={title} descriptions={descriptions} />} />

@@ -11,9 +11,12 @@
 }
 .form .form-control {
   font-size: 13px;
+  line-height: 2.5;
 }
 .form textarea {
   min-height: 120px;
   resize: vertical;
 }
-
+.form-title{
+  margin-bottom: 1rem;
+}

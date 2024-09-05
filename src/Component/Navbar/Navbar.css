@@ -36,7 +36,7 @@
 .company-logo img {
   width: 100%;
   object-fit: cover;
-  /* padding: 15px; */
+  padding: 8px 0;
   max-height: 80px;
 }
 
@@ -50,6 +50,7 @@
 
 .navbar-collapse {
   justify-content: center;
+  position: relative;
 }
 
 /* animated button */
@@ -125,6 +126,9 @@
 .nav-action {
   display: flex;
   align-items: center;
+  position: absolute;
+  right: 2%;
+  top: 25%;
 }
 
 .nav-button {
@@ -340,6 +344,9 @@
   display: none !important;
 }
 
+.dropdown-item{
+font-size: 14px !important;
+}
 .dropdown-item svg{
 rotate: -90deg;
 margin-right: 8px;
@@ -397,6 +404,7 @@ margin-right: 8px;
     justify-content: flex-start;
     margin: 10px 0px;
     padding: 1rem 0;
+    position: relative;
   }
   .fix-icon-enquery {
     right: -5%;

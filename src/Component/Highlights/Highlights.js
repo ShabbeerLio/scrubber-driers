@@ -11,7 +11,7 @@ const Highlights = () => {
             <div className='Highlights-main'>
                 <div className="highlights-item">
                     <div className="highlights-left">
-                        <h2>We deal in products range from leading top world manufacturing companies from IPC SOTECO SPA "VACUUM CLEANER" from Europe.</h2>
+                        <h2>Our Auto Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.</h2>
 
                     </div>
                     <div className="highlights-right">

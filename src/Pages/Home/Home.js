@@ -5,6 +5,8 @@ import { useLocation } from 'react-router-dom'
 import Banner from "../../Component/Banner/Banner"
 import PresClients from '../../Component/PresClients/PresClients'
 import Highlights from '../../Component/Highlights/Highlights'
+import Work from '../../Component/Work/Work'
+import CallAction from '../../Component/CallAction/CallAction'
 
 
 const Home = (props) => {
@@ -66,6 +68,8 @@ const Home = (props) => {
             <PresClients />
             <Highlights/>
             <Walkthrough />
+            <Work/>
+            <CallAction/>
         </div>
     )
 }

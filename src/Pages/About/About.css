@@ -1,6 +1,7 @@
 .About {
-  padding: 5rem 0rem 0 0;
+  /* padding: 5rem 0rem 0 0; */
   width: 100%;
+  /* background-color: #f1f1f1; */
 }
 
 .About-main {
@@ -18,5 +19,4 @@
 }
 
 @media only screen and (max-width: 680px) {
- 
 }

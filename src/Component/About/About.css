@@ -1,7 +1,7 @@
 .aboutUs {
   padding: 5rem 0rem;
   width: 100%;
-  /* background-color: #fafafa; */
+  background-color: white;
 }
 
 .about-main {
@@ -37,14 +37,14 @@
 
 .about-title h4 {
   color: #008e98;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   margin: 0;
   padding-bottom: 20px;
 }
 .about-title h4 span {
   color: #008e98;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
 }
@@ -129,8 +129,8 @@
 
   .about-title h4 {
     margin-top: 20px;
-    font-size: 14px;
-    line-height: 0px;
+    font-size: 20px;
+    line-height: 25px;
   }
 
   .about-right {
