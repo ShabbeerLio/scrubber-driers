@@ -35,7 +35,7 @@ const Footer = () => {
                                     <Link onClick={scrollTop} to="/krugervac/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/career">Products</Link>
+                                    <Link onClick={scrollTop} to="/krugervac">Products</Link>
                                 </li>
                                 <li>
                                     <Link onClick={scrollTop} to="/krugervac/contact-us">Contact Us</Link>
