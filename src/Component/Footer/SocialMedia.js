@@ -17,9 +17,9 @@ const SocialMedia = () => {
                 <Link to={"//facebook.com"}>
                     <FaFacebookF />
                 </Link>
-                {/* <p>
+                <Link to={"//facebook.com"}>
                     <FaYoutube />
-                </p> */}
+                </Link>
                 <Link to={"//facebook.com"}>
                     <FaLinkedinIn />
                 </Link>

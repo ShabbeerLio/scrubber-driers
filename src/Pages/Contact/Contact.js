@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import "./Contact.css"
-import { IoMail ,IoLocationSharp  } from "react-icons/io5";
+import { IoMail, IoLocationSharp } from "react-icons/io5";
 import { useLocation } from 'react-router-dom';
 import Form from '../../Component/Form/Form';
 import cban from "../../Assets/Contact/contactus.jpg"
@@ -37,37 +37,37 @@ const Contact = (props) => {
         }
 
         // Ensure dataLayer is initialized before the GA script loads
-        // window.dataLayer = window.dataLayer || [];
-        // function gtag() {
-        //   dataLayer.push(arguments);
-        // }
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
         // Load the Google Analytics script only once
-        // const gaScriptId = 'ga-gtag';
-        // if (!document.getElementById(gaScriptId)) {
-        //   const script = document.createElement('script');
-        //   script.id = gaScriptId;
-        //   script.async = true;
-        //   script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3BK9F87D6E';
-        //   document.head.appendChild(script);
+        const gaScriptId = 'ga-gtag';
+        if (!document.getElementById(gaScriptId)) {
+            const script = document.createElement('script');
+            script.id = gaScriptId;
+            script.async = true;
+            //   script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3BK9F87D6E';
+            document.head.appendChild(script);
 
-        //   script.onload = () => {
-        //     gtag('js', new Date());
-        //     gtag('config', 'G-3BK9F87D6E');
-        //   };
-        // }
+            script.onload = () => {
+                gtag('js', new Date());
+                // gtag('config', 'G-3BK9F87D6E');
+            };
+        }
     }, [props.title, props.descriptions, location.pathname]);
 
     return (
         <div className='Contact'>
-            <PageBanner banner={cban} title={"Contact Us"}/>
+            <PageBanner banner={cban} title={"Contact Us"} />
             <div className='Contact-main'>
                 {/* <h1>Contact Us</h1> */}
                 <div className='Contact-box'>
                     <div className='Contactbox-left'>
                         <div className="contactdetail-box">
                             <div className="contact-detail-card">
-                                <IoLocationSharp  />
+                                <IoLocationSharp />
                                 <div className="contactcard-detail">
                                     <h6>Address</h6>
                                     <p>B-78,  B Block, Sector-88, Noida, Uttar Pradesh 201305 India</p>

@@ -19,7 +19,7 @@ const Banner = () => {
 
             <div className="banner">
                 <div className="banner-image">
-                    <img src={bannerimg} alt="DLF Andheri Mumbai" />
+                    <img src={bannerimg} alt="" />
                 </div>
                 <div className="banner-stick">
                     <div className="banner-stick-box">

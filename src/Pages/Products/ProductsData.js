@@ -9,6 +9,7 @@ const ProductsData = [
             {
                 id: 1,
                 cover: require("../../Assets/Products/Walk Behind.png"),
+                featurescov: require("../../Assets/Products/Walk Behindfet.png"),
                 heading: [
                     {
                         id: 1,
@@ -168,6 +169,7 @@ const ProductsData = [
             {
                 id: 1,
                 cover: require("../../Assets/Products/rideon1.png"),
+                featurescov: require("../../Assets/Products/ridon1fet.png"),
                 heading: [
                     {
                         id: 1,
@@ -304,6 +306,7 @@ const ProductsData = [
             {
                 id: 2,
                 cover: require("../../Assets/Products/rideon2.png"),
+                featurescov: require("../../Assets/Products/ridon2fet.png"),
                 heading: [
                     {
                         id: 1,
@@ -475,6 +478,7 @@ const ProductsData = [
                 id: 3,
                 title: "KV-110",
                 cover: require("../../Assets/Products/rideon3.png"),
+                featurescov: require("../../Assets/Products/ridon3fet.png"),
                 heading: [
                     {
                         id: 1,
