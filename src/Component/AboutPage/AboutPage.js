@@ -1,4 +1,5 @@
 import React from 'react'
+import "./AboutPage.css"
 import Aboutimg from "../../Assets/About/aboutpage2.jpg"
 import Aboutimg1 from "../../Assets/About/aboutpage1.jpg"
 
@@ -24,13 +25,13 @@ const AboutPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="about-right">
-                        <img className="image2" src={Aboutimg} alt="DLF Andheri Mumbai" />
+                    <div className="aboutPage-right">
+                        <img src={Aboutimg} alt="DLF Andheri Mumbai" />
                     </div>
                 </div>
                 <div className="about-items">
-                    <div className="about-right">
-                        <img className="image2" src={Aboutimg1} alt="DLF Andheri Mumbai" />
+                    <div className="aboutPage-right">
+                        <img src={Aboutimg1} alt="DLF Andheri Mumbai" />
                     </div>
                     <div className="about-left">
                         <div className="about-detail">

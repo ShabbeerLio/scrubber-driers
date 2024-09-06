@@ -1,0 +1,16 @@
+.aboutPage-right img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.aboutPage-right {
+  width: 50%;
+}
+
+@media only screen and (max-width: 680px) {
+    .aboutPage-right {
+        width: 100%;
+        order: 2;
+      }
+}

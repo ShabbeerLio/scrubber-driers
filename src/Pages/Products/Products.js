@@ -86,7 +86,9 @@ const Products = ({ title, descriptions, item }) => {
                                                     <img src={j.featurescov} alt="" />
                                                 </div>
                                                 <div className="product-detail">
-                                                    <Table item={j} />
+                                                    <div >
+                                                        <Table item={j} />
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

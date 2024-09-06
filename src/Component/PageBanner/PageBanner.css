@@ -15,7 +15,11 @@
   left: 0;
   display: inline-block;
   opacity: 0.9;
-  background-image: linear-gradient(0deg, #000000 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(
+    0deg,
+    #000000 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .PageBanner h1 {
   position: absolute;
@@ -43,4 +47,14 @@
   width: 70%;
   border-radius: 50px;
   background-color: #008e98;
+}
+
+@media only screen and (max-width: 680px) {
+  .PageBanner h1 {
+    font-size: 30px;
+  }
+  .PageBanner p {
+    width: 100%;
+    font-size: 14px;
+  }
 }
