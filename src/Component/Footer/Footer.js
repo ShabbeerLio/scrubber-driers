@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="Footer-main">
                     <div className="footer-detail-box">
                         <div className="footer-left">
-                            <Link onClick={scrollTop} to="/">
+                            <Link onClick={scrollTop} to="/krugervac/">
                                 <img className="image2" src={Aboutimg} alt="" />
                             </Link>
                             <p>Kruger Vac is one of the leading suppliers of commercial and industrial vacuum cleaners and other cleaning equipment.</p>
@@ -29,16 +29,19 @@ const Footer = () => {
                             <h2>Quick Links</h2>
                             <ul>
                                 <li>
-                                    <Link onClick={scrollTop} to="/pukhya">Home</Link>
+                                    <Link onClick={scrollTop} to="/krugervac">Home</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/about">About</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/career">Products</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/career">Products</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/contact-us">Contact Us</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/contact-us">Contact Us</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={scrollTop} to="/krugervac/contact-us">Send Enquery</Link>
                                 </li>
                             </ul>
                         </div>
@@ -46,10 +49,10 @@ const Footer = () => {
                             <h2>Our Products</h2>
                             <ul>
                                 <li>
-                                    <Link onClick={scrollTop} to="/walk-behind-automatic-scrubber-driers">Walk Behind Automatic Scrubber Driers</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/walk-behind-automatic-scrubber-driers">Walk Behind Automatic Scrubber Driers</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/ride-on-automatic-scrubber-driers">Ride On Automatic Scrubber Driers</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/ride-on-automatic-scrubber-driers">Ride On Automatic Scrubber Driers</Link>
                                 </li>
                             </ul>
                         </div>
