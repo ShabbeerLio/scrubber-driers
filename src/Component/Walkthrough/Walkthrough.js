@@ -7,7 +7,7 @@ const Walkthrough = () => {
   return (
     <div className="Walkthrough">
       <div className="Walkthrough-main">
-        <h2>Cleaning Machines On Rent</h2>
+        <h2>Cost-Effective Solutions for Tough Cleaning Jobs</h2>
         <div className="walkthrough-item">
           <div className="walkthrough-left">
             <img src={walkimg} alt="" />

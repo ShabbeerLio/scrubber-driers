@@ -27,7 +27,7 @@ const Banner = () => {
                         <h5>All Controls in Hand, Smooth Operations with Adjustable Machine Weight</h5>
                         {/* <span>Premium 3 / 4 BHK Residence | Price Starts <span> ₹ 4.95 Cr*</span> </span> */}
                         <p>
-                            <Link to="/" onClick={toTop}>
+                            <Link to="/krugervac/contact-us" onClick={toTop}>
                                 Enquire Now <FaArrowRightLong />
                             </Link>
                         </p>
