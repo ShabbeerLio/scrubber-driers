@@ -65,9 +65,6 @@ const Footer = () => {
                                 <li>
                                     <Link to='mailto: info@krugervac.com'> info@krugervac.com</Link>
                                 </li>
-                                <li>
-                                    <Link to='mailto:  sales@kbequipment.com '> sales@kbequipment.com </Link>
-                                </li>
                             </ul>
                             <div className="footer-social-media">
                                 <SocialMedia />
@@ -80,10 +77,10 @@ const Footer = () => {
                     <div className="footer-copyright-menu">
                         <ul>
                             <li>
-                                <Link onClick={scrollTop} to="/">Disclaimers</Link>
+                                <Link onClick={scrollTop} to="/">Disclaimer</Link>
                             </li>
                             <li>
-                                <Link onClick={scrollTop} to="/">Terms & Condition</Link>
+                                <Link onClick={scrollTop} to="/">Terms & Conditions</Link>
                             </li>
                             <li>
                                 <Link onClick={scrollTop} to="/">Privacy Policy</Link>

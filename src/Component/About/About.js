@@ -29,11 +29,10 @@ const AboutUs = () => {
                         </div>
                         <div className="about-experience">
                             <div className="about-degit">
-                                <h3>20 <span>+</span></h3>
+                                <h3>20 <span>+ Years</span></h3>
                             </div>
                             <div className="about-degit-title">
-                                <p>Combined </p>
-                                <p>Experiences </p>
+                                <p>Combined Experiences</p>
                             </div>
                         </div>
                         {/* <div className="about-button">

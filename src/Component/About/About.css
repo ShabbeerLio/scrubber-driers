@@ -86,7 +86,7 @@
   font-weight: 700;
   color: #008e98;
   position: relative;
-  margin-right: 1.5rem;
+  margin-right: 7rem;
   margin-bottom: 0;
 }
 .about-degit h3 span {
@@ -94,7 +94,7 @@
   font-weight: 700;
   color: #008e98;
   position: absolute;
-  top: 0;
+  bottom: 10%;
 }
 
 .about-degit-title {
