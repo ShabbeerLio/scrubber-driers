@@ -23,8 +23,9 @@ const Banner = () => {
                 </div>
                 <div className="banner-stick">
                     <div className="banner-stick-box">
-                        <h2>Machines & Ideas For Industrial Cleaning</h2>
-                        <h5>All Controls in Hand, Smooth Operations with Adjustable Machine Weight</h5>
+                        <h2>Machines & Ideas For </h2>
+                        <h1>Industrial Cleaning</h1>
+                        <h5>A company Concepts to Technologies Redefining Solutions for Cleaning </h5>
                         {/* <span>Premium 3 / 4 BHK Residence | Price Starts <span> ₹ 4.95 Cr*</span> </span> */}
                         <p>
                             <Link to="/krugervac/contact-us" onClick={toTop}>

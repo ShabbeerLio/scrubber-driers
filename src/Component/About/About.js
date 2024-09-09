@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
 import Aboutimg from "../../Assets/About/about.png"
-import { Link } from 'react-router-dom'
+import best from '../../Assets/About/best.png'
 
 const AboutUs = () => {
 
@@ -29,7 +29,7 @@ const AboutUs = () => {
                         </div>
                         <div className="about-experience">
                             <div className="about-degit">
-                                <h3>20 <span>+ Years</span></h3>
+                                <h3>20+<span>Years</span></h3>
                             </div>
                             <div className="about-degit-title">
                                 <p>Combined Experiences</p>
@@ -43,6 +43,9 @@ const AboutUs = () => {
                     </div>
                     <div className="about-right">
                         <img className="image2" src={Aboutimg} alt="DLF Andheri Mumbai" />
+                        <div className="about-best">
+                            <img src={best} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

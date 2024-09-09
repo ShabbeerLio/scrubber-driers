@@ -27,7 +27,6 @@
   text-align: center;
 }
 
-
 .about-title span {
   color: rgb(68, 68, 68);
   font-size: 15px;
@@ -66,19 +65,27 @@
 
 .about-right {
   width: 50%;
+  position: relative;
 }
 
 .about-right img {
   object-fit: cover;
   border-radius: 10px;
-  width: 85%;
+  width: 95%;
   /* rotate: 90deg; */
 }
 
+.about-best img{
+  width: 25%;
+  position: absolute;
+  top: 0%;
+  right: 5%;
+}
 
 .about-experience {
   display: flex;
   align-items: flex-end;
+  position: relative;
 }
 
 .about-degit h3 {
@@ -90,11 +97,11 @@
   margin-bottom: 0;
 }
 .about-degit h3 span {
-  font-size: 40px;
+  font-size: 65px;
   font-weight: 700;
   color: #008e98;
   position: absolute;
-  bottom: 10%;
+  top: 9%;
 }
 
 .about-degit-title {
@@ -102,8 +109,13 @@
 }
 .about-degit-title p {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
+  position: absolute;
+  left: 38%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 1200px) {

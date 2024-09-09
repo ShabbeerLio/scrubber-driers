@@ -460,7 +460,7 @@ const ProductsData = [
                     },
                     {
                         id: 27,
-                        side: "KV-400",
+                        side: "KV-270",
                         detail1: "850",
                         detail2: "650 x 2",
                         detail3: "800",

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import Aboutimg from "../../Assets/logo.jpg"
+import Aboutimg from "../../Assets/logo.png"
 import { Link } from 'react-router-dom';
 import SocialMedia from './SocialMedia';
 

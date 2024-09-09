@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Work.css"
 import box1 from "../../Assets/Work/KV-270.png"
+import box2 from "../../Assets/Work/about.png"
 import FAQs from './FAQs'
 // import box2 from "../../Assets/Work/work2.jpg"
 // import box3 from "../../Assets/Work/work3.jpeg"
@@ -12,6 +13,7 @@ const Work = () => {
                 <div className='Work-box'>
                     <div className='Work-box-left'>
                         <img src={box1} alt="" />
+                        <img src={box2} alt="" />
                     </div>
                     <div className='Work-box-right'>
                         <FAQs/>

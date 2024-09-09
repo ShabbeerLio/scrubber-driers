@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { RiArrowDropDownLine } from "react-icons/ri";
 import "./Navbar.css"
 import { Link } from 'react-router-dom';
-import Logo from "../../Assets/logo.jpg"
+import Logo from "../../Assets/logo.png"
 import { IoLogoWhatsapp } from "react-icons/io5";
 import FormFloat from './FormFloat';
 
