@@ -14,7 +14,6 @@
   padding: 0px 15px;
   background-color: white;
   border-radius: 8px;
-  
 }
 .navbar-items {
   width: 100%;
@@ -22,7 +21,7 @@
 }
 
 /* logo */
-.company-logo-box a h5{
+.company-logo-box a h5 {
   display: flex;
   align-items: center;
   color: black;
@@ -81,7 +80,7 @@
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #ab987a;
+  background: #008e98;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -191,7 +190,6 @@
   margin-right: 10px;
 }
 
-
 .nav-menu ul li a:hover {
   color: black !important;
 }
@@ -286,7 +284,6 @@
   bottom: 50%;
   right: -4%;
   rotate: -90deg;
-  
 }
 
 .fix-icon-enquery p {
@@ -344,18 +341,27 @@
   display: none !important;
 }
 
-.dropdown-item{
-font-size: 14px !important;
+.dropdown-item {
+  font-size: 14px !important;
 }
-.dropdown-item svg{
-rotate: -90deg;
-margin-right: 8px;
+.dropdown-item svg {
+  rotate: -90deg;
+  margin-right: 8px;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   color: #fff !important;
   text-decoration: none;
   background-color: #008e98;
+}
+
+.celebrate img {
+  position: absolute;
+  top: 8%;
+  right: -15%;
+  width: 6%;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 1200px) {
@@ -411,13 +417,13 @@ margin-right: 8px;
   }
 }
 @media only screen and (max-width: 540px) {
-
   .navBar {
     top: 0;
   }
 
   .company-logo img {
-    max-height: 80px;
+    max-height: 60px;
+    width: 80%;
   }
 
   /* .company-logo img {
@@ -425,5 +431,13 @@ margin-right: 8px;
   } */
   .fix-icon-enquery {
     right: -15%;
+  }
+
+  .celebrate img {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 19%;
+    object-fit: cover;
   }
 }

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Logo from "../../Assets/logo.png"
 import { IoLogoWhatsapp } from "react-icons/io5";
 import FormFloat from './FormFloat';
+import celimg from "../../Assets/celebrate.png"
 
 const Navbar = (props) => {
 
@@ -69,7 +70,7 @@ const Navbar = (props) => {
                                     <Link
                                         className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
                                         to="/krugervac"
-                                        // onClick={() => handleLinkClick('/')}
+                                    // onClick={() => handleLinkClick('/')}
                                     >
                                         {/* <h5>DLF Andheri Mumbai</h5> */}
                                         <img src={Logo} alt="" />
@@ -169,6 +170,9 @@ const Navbar = (props) => {
                                         </div>
                                     </ul>
                                 </div>
+                            </div>
+                            <div className="celebrate">
+                                <img src={celimg} alt="" />
                             </div>
                             <div className="fix-icon-call">
                                 <span className='shine'></span>

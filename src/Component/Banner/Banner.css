@@ -101,12 +101,21 @@
 
 @media only screen and (max-width: 680px) {
   .banner-stick{
-    background-color: transparent;
+    background-color: #bcc6ce;
     position: relative;
     z-index: 1;
   }
 
   .banner-stick-box{
     padding: 1rem ;
+  }
+
+  .banner-stick-box h1{
+    margin-bottom: 1rem;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    font-family: "Roboto";
+    line-height: 70px;
   }
 }

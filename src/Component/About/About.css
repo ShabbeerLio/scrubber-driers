@@ -75,7 +75,7 @@
   /* rotate: 90deg; */
 }
 
-.about-best img{
+.about-best img {
   width: 25%;
   position: absolute;
   top: 0%;
@@ -140,9 +140,11 @@
   }
 
   .about-title h4 {
-    margin-top: 20px;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 30px;
+  }
+  .about-title h4 span {
+    font-size: 30px;
   }
 
   .about-right {
@@ -159,5 +161,22 @@
   .about-button a {
     width: 100%;
     text-align: center;
+  }
+
+  .about-degit h3 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #008e98;
+    position: relative;
+    margin-right: 7rem;
+    margin-bottom: 0;
+  }
+
+  .about-degit h3 span {
+    font-size: 50px;
+}
+
+  .about-degit-title p {
+    left: 44%;
   }
 }
