@@ -3,6 +3,7 @@ import "./Footer.css"
 import Aboutimg from "../../Assets/logo.png"
 import { Link } from 'react-router-dom';
 import SocialMedia from './SocialMedia';
+import footlogo from "../../Assets/krugervac footerlogo.jpg"
 
 
 const Footer = () => {
@@ -70,6 +71,9 @@ const Footer = () => {
                                 <SocialMedia />
                             </div>
                         </div>
+                    </div>
+                    <div className="footerlogo-down">
+                        <img src={footlogo} alt="" />
                     </div>
                 </div>
                 <div className="footer-down">

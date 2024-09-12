@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 15px 0;
   border-top: 1px solid #adadad;
 }
@@ -158,6 +158,15 @@
   color: #008e98;
 }
 
+.footerlogo-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerlogo-down img{
+  width: 25%;
+  object-fit: cover;
+}
 @media (min-width: 1200px) {
   .Footer-main {
     max-width: 1140px;
@@ -239,4 +248,10 @@
   .footer-copyright {
     justify-content: center;
   }
+
+  .footerlogo-down img {
+    margin-top: 1rem;
+    width: 60%;
+    object-fit: cover;
+}
 }

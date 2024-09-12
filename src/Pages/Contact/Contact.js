@@ -105,7 +105,6 @@ const Contact = (props) => {
                                 <div className="contactcard-detail">
                                     <h6>Email Address</h6>
                                     <p>info@krugervac.com</p>
-                                    <p>sales@kbequipment.com </p>
                                 </div>
                             </div>
 
