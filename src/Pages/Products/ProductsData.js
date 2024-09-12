@@ -2,7 +2,7 @@ const ProductsData = [
     {
         id: 1,
         title: "Walk Behind Automatic Scrubber Driers",
-        tag: "krugervac/walk-behind-automatic-scrubber-driers",
+        tag: "walk-behind-automatic-scrubber-driers",
         description: "Our Walk Behind Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
         cover: require("../../Assets/Products/Walk Behind Scrubber Driers.png"),
         products: [
@@ -162,7 +162,7 @@ const ProductsData = [
     {
         id: 2,
         title: "Ride On Automatic Scrubber Driers",
-        tag: "krugervac/ride-on-automatic-scrubber-driers",
+        tag: "ride-on-automatic-scrubber-driers",
         description: "Our Automatic Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
         cover: require("../../Assets/Products/Walk Behind Automatic Scrubber Driers.png"),
         products: [

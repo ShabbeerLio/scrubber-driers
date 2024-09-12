@@ -69,7 +69,7 @@ const Navbar = (props) => {
                                 <div className="company-logo-box">
                                     <Link
                                         className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                        to="/krugervac"
+                                        to="/"
                                     // onClick={() => handleLinkClick('/')}
                                     >
                                         {/* <h5>DLF Andheri Mumbai</h5> */}
@@ -97,7 +97,7 @@ const Navbar = (props) => {
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                                to="/krugervac"
+                                                to="/"
                                                 onClick={() => handleLinkClick('/')}
                                             >
                                                 Home
@@ -106,7 +106,7 @@ const Navbar = (props) => {
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/about' ? 'active' : ''}`}
-                                                to="/krugervac/about"
+                                                to="/about"
                                                 onClick={() => handleLinkClick('/about')}
                                             >
                                                 About
@@ -121,21 +121,21 @@ const Navbar = (props) => {
                                                 Products
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link className={`dropdown-item ${activeLink === '/walk-behind-automatic-scrubber-driers' ? 'active' : ''}`} to="/krugervac/walk-behind-automatic-scrubber-driers" onClick={() => handleLinkClick('/walk-behind-automatic-scrubber-driers')}> <RiArrowDropDownLine />Walk Behind Automatic Scrubber Driers</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/ride-on-automatic-scrubber-driers' ? 'active' : ''}`} to="/krugervac/ride-on-automatic-scrubber-driers" onClick={() => handleLinkClick('/ride-on-automatic-scrubber-driers')}> <RiArrowDropDownLine />Ride On Automatic Scrubber Driers</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/walk-behind-automatic-scrubber-driers' ? 'active' : ''}`} to="/walk-behind-automatic-scrubber-driers" onClick={() => handleLinkClick('/walk-behind-automatic-scrubber-driers')}> <RiArrowDropDownLine />Walk Behind Automatic Scrubber Driers</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/ride-on-automatic-scrubber-driers' ? 'active' : ''}`} to="/ride-on-automatic-scrubber-driers" onClick={() => handleLinkClick('/ride-on-automatic-scrubber-driers')}> <RiArrowDropDownLine />Ride On Automatic Scrubber Driers</Link></li>
                                             </ul>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/contact-us' ? 'active' : ''}`}
-                                                to="/krugervac/contact-us"
+                                                to="/contact-us"
                                                 onClick={() => handleLinkClick('/contact-us')}
                                             >Contact Us</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/contact-us2' ? 'active' : ''}`}
-                                                to="/krugervac/contact-us"
+                                                to="/contact-us"
                                                 onClick={() => handleLinkClick('/contact-us2')}
                                             >Send Enquery</Link>
                                         </li>
