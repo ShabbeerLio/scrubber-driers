@@ -28,7 +28,7 @@ const Banner = () => {
                         <h5>A company Concepts to Technologies Redefining Solutions for Cleaning </h5>
                         {/* <span>Premium 3 / 4 BHK Residence | Price Starts <span> ₹ 4.95 Cr*</span> </span> */}
                         <p>
-                            <Link to="/krugervac/contact-us" onClick={toTop}>
+                            <Link to="/contact-us" onClick={toTop}>
                                 Enquire Now <FaArrowRightLong />
                             </Link>
                         </p>
