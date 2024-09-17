@@ -12,8 +12,8 @@ import ProductsData from "./Pages/Products/ProductsData";
 
 function App() {
 
-  const title = "Floor Cleaning Machine On Rent | Sweeping Machines Rental - Kruger Vac"
-  const descriptions = "We are one of leading suppliers of Industrial Floor Cleaning and Scrubbing machines on Rent."
+  const title = "Scrubber Dryer Machines for Floor Cleaning - Krugervac"
+  const descriptions = "Krugervac offers a wide range of scrubber dryer machines for efficient and effective floor cleaning. Experience the power and convenience of our automatic scrubber dryers to keep your floors spotless."
 
   return (
     <>

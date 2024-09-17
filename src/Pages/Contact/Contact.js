@@ -96,8 +96,7 @@ const Contact = (props) => {
                                 </svg>
                                 <div className="contactcard-detail">
                                     <h6>Phone No</h6>
-                                    <p>Mob  : +91-9810291946</p>
-                                    <p>Mob : +91-7017024925</p>
+                                    <p>Mob  : +91-9266021137</p>
                                 </div>
                             </div>
                             <div className="contact-detail-card">

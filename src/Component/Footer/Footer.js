@@ -61,7 +61,7 @@ const Footer = () => {
                                     <Link>B-78,  B Block, Sector-88, Noida, Uttar Pradesh 201305 India</Link>
                                 </li>
                                 <li>
-                                    <Link to='tel: +919810291946'>9810291946</Link>
+                                    <Link to='tel: +919266021137'>9266021137</Link>
                                 </li>
                                 <li>
                                     <Link to='mailto: info@krugervac.com'> info@krugervac.com</Link>
