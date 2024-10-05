@@ -73,7 +73,7 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 680px) {
   .Work-box {
     flex-wrap: wrap;
   }

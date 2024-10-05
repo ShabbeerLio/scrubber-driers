@@ -58,4 +58,8 @@
     width: 100%;
     font-size: 12px;
   }
+
+  .PageBanner h1 {
+    bottom: 15%;
+  }
 }

@@ -415,20 +415,23 @@
   .fix-icon-enquery {
     right: -5%;
   }
+
+  .company-logo {
+    width: 30%;
+  }
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 680px) {
   .navBar {
     top: 0;
   }
 
+  .company-logo {
+    width: 70%;
+  }
   .company-logo img {
     max-height: 60px;
     width: 80%;
   }
-
-  /* .company-logo img {
-    padding: 15px 0px;
-  } */
   .fix-icon-enquery {
     right: -15%;
   }
