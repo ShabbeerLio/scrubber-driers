@@ -42,7 +42,7 @@ const AboutUs = () => {
                         </div> */}
                     </div>
                     <div className="about-right">
-                        <img className="image2" src={Aboutimg} alt="DLF Andheri Mumbai" />
+                        <img className="image2" src={Aboutimg} alt=" " />
                         <div className="about-best">
                             <img src={best} alt="" />
                         </div>

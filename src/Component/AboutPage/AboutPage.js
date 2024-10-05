@@ -25,12 +25,12 @@ const AboutPage = () => {
                         </div>
                     </div>
                     <div className="aboutPage-right">
-                        <img src={Aboutimg} alt="DLF Andheri Mumbai" />
+                        <img src={Aboutimg} alt=" " />
                     </div>
                 </div>
                 <div className="about-items">
                     <div className="aboutPage-right">
-                        <img src={Aboutimg1} alt="DLF Andheri Mumbai" />
+                        <img src={Aboutimg1} alt=" " />
                     </div>
                     <div className="about-left">
                         <div className="about-detail">
